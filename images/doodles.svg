@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- </> -->
+  <path d="M40 60 L22 78 L40 96 M78 60 L96 78 L78 96 M66 54 L52 102" />
+  <!-- terminal window >_ -->
+  <rect x="150" y="34" width="110" height="74" rx="8" />
+  <path d="M150 52 H260" /><circle cx="162" cy="43" r="2.5" /><circle cx="172" cy="43" r="2.5" /><circle cx="182" cy="43" r="2.5" />
+  <path d="M166 70 L178 80 L166 90 M186 92 H204" />
+  <!-- git branch -->
+  <circle cx="330" cy="40" r="7" /><circle cx="330" cy="110" r="7" /><circle cx="372" cy="62" r="7" />
+  <path d="M330 47 V103 M372 69 C372 92 340 86 333 104" />
+  <!-- cursor arrow -->
+  <path d="M470 30 L470 82 L483 70 L494 94 L503 90 L492 66 L509 66 Z" />
+  <!-- sparkle -->
+  <path d="M580 50 V80 M565 65 H595" /><path d="M110 170 V186 M102 178 H118" />
+  <!-- monitor -->
+  <rect x="24" y="210" width="120" height="78" rx="6" /><path d="M72 288 L66 310 M96 288 L102 310 M56 312 H112" />
+  <path d="M44 236 H90 M44 250 H120 M44 264 H76" />
+  <!-- { } -->
+  <path d="M220 196 C206 196 210 214 210 222 C210 230 202 232 198 232 C202 232 210 234 210 242 C210 250 206 268 220 268" />
+  <path d="M262 196 C276 196 272 214 272 222 C272 230 280 232 284 232 C280 232 272 234 272 242 C272 250 276 268 262 268" />
+  <!-- cat face doodle (octo-cat-ish, generic) -->
+  <path d="M352 218 L356 186 L376 204 C386 200 400 200 410 204 L430 186 L434 218 C440 230 438 250 424 262 C406 276 380 276 362 262 C348 250 346 230 352 218 Z" />
+  <circle cx="378" cy="232" r="3" /><circle cx="408" cy="232" r="3" />
+  <path d="M388 246 Q393 251 398 246 M346 244 L328 240 M346 252 L328 256 M440 244 L458 240 M440 252 L458 256" />
+  <!-- bug -->
+  <ellipse cx="545" cy="240" rx="22" ry="30" /><path d="M545 210 V270 M523 230 L505 222 M523 250 L503 254 M567 230 L585 222 M567 250 L587 254 M536 212 L528 196 M554 212 L562 196" />
+  <!-- database -->
+  <ellipse cx="80" cy="410" rx="44" ry="13" /><path d="M36 410 V470 C36 488 124 488 124 470 V410 M36 440 C36 457 124 457 124 440" />
+  <!-- neural net -->
+  <circle cx="200" cy="384" r="7" /><circle cx="200" cy="432" r="7" /><circle cx="200" cy="480" r="7" />
+  <circle cx="262" cy="408" r="7" /><circle cx="262" cy="456" r="7" /><circle cx="316" cy="432" r="7" />
+  <path d="M207 386 L255 406 M207 386 L255 454 M207 432 L255 410 M207 432 L255 454 M207 480 L255 410 M207 480 L255 458 M269 410 L309 430 M269 456 L309 434" />
+  <!-- lightbulb -->
+  <path d="M440 470 C440 456 424 448 424 426 C424 404 442 392 458 392 C474 392 492 404 492 426 C492 448 476 456 476 470 Z M444 482 H472 M448 494 H468" />
+  <path d="M458 372 V360 M420 386 L412 378 M496 386 L504 378" />
+  <!-- coffee mug -->
+  <path d="M540 410 H600 V456 C600 470 590 478 576 478 H564 C550 478 540 470 540 456 Z M600 420 C618 420 618 448 600 448" />
+  <path d="M556 400 C550 390 562 384 556 372 M576 400 C570 390 582 384 576 372" />
+  <!-- gear -->
+  <circle cx="330" cy="574" r="18" /><circle cx="330" cy="574" r="6" />
+  <path d="M330 546 V536 M330 602 V612 M302 574 H292 M358 574 H368 M310 554 L303 547 M350 594 L357 601 M350 554 L357 547 M310 594 L303 601" />
+  <!-- wifi -->
+  <path d="M60 580 C90 552 130 552 160 580 M78 598 C98 580 122 580 142 598" /><circle cx="110" cy="614" r="4" />
+  <!-- binary + py file -->
+  <text x="180" y="610" font-family="monospace" font-size="20" fill="#000" stroke="none">1011</text>
+  <path d="M440 540 H484 L500 556 V620 H440 Z M484 540 V556 H500" />
+  <text x="452" y="598" font-family="monospace" font-size="18" fill="#000" stroke="none">.py</text>
+  <!-- keyboard key -->
+  <rect x="560" y="550" width="52" height="48" rx="8" /><path d="M570 590 H602" /><text x="575" y="580" font-family="monospace" font-size="18" fill="#000" stroke="none">⌘</text>
+</svg>

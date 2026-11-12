@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ibrahim Bin Hassan — Aspiring AI / ML Engineer</title>
+  <meta name="description" content="Ibrahim Bin Hassan — Computer Science undergraduate at Qarshi University building toward AI and machine learning." />
+  <meta name="theme-color" content="#183C30" />
+  <link rel="icon" href="images/portrait.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    // theme before paint (no flash) + screenshot mode (?shot hides the device showcase)
+    (function () {
+      var saved = localStorage.getItem('theme');
+      var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      if (new URLSearchParams(location.search).has('shot')) { dark = false; document.documentElement.classList.add('is-shot'); }
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span id="progress"></span></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#home">IBH<span class="sr-only"> — Ibrahim Bin Hassan, home</span></a>
+    <nav class="nav__links" id="nav-links" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#showcase">Showcase</a>
+      <a href="#contact">Work with me</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch to dark mode">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" /></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" /><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8" /></svg>
+      </button>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1. HOME -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <p class="eyebrow reveal">Portfolio — Lahore, Pakistan</p>
+        <h1 class="hero__title reveal" id="hero-title">Ibrahim<br /><em>Bin Hassan</em></h1>
+        <p class="hero__role reveal"><span class="mono">I'm</span> <span id="typed">an aspiring AI / ML engineer</span><span class="caret" aria-hidden="true"></span></p>
+        <p class="hero__desc reveal">Computer Science undergraduate at Qarshi University, focused on artificial intelligence and machine learning — and currently building my Python skills for AI / ML.</p>
+
+        <div class="hero__cta reveal">
+          <a class="btn btn--solid" href="#contact">Work with me</a>
+          <button class="btn btn--line" type="button" aria-expanded="false" aria-controls="panel-skills" data-toggle>Skills <span class="plus" aria-hidden="true"></span></button>
+          <button class="btn btn--line" type="button" aria-expanded="false" aria-controls="panel-projects" data-toggle>Projects <span class="plus" aria-hidden="true"></span></button>
+        </div>
+
+        <div class="panel" id="panel-skills" role="region" aria-label="Skills">
+          <div class="panel__inner">
+            <ul class="chips">
+              <li>Python</li><li>Java (OOP)</li><li>C++</li><li>Data Structures</li><li>Algorithms</li><li>Database Design</li><li>Data Modeling</li><li>Git</li><li>Command Line</li><li>Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel" id="panel-projects" role="region" aria-label="Projects">
+          <div class="panel__inner">
+            <ul class="projects">
+              <li>
+                <a href="https://midnight-velvet.vercel.app/" target="_blank" rel="noopener">
+                  <span class="mono">01</span>
+                  <span><strong>Midnight Velvet</strong><small>Coffee product landing page — designed &amp; built by me.</small></span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ibrahim-hsn/DeveloperToolKit" target="_blank" rel="noopener">
+                  <span class="mono">02</span>
+                  <span><strong>DP Optimization Engine</strong><small>Python app that visualises dynamic-programming algorithms.</small></span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero__photo reveal">
+        <svg class="hero__ring" viewBox="0 0 400 400" aria-hidden="true">
+          <defs><path id="ring" d="M200,200 m-180,0 a180,180 0 1,1 360,0 a180,180 0 1,1 -360,0" /></defs>
+          <text><textPath href="#ring">ARTIFICIAL INTELLIGENCE · MACHINE LEARNING · COMPUTER SCIENCE · PYTHON ·&#160;</textPath></text>
+        </svg>
+        <img src="images/portrait.jpg" alt="Portrait of Ibrahim Bin Hassan" width="382" height="512" />
+        <span class="badge mono">Open to AI / ML internships</span>
+      </figure>
+
+      <a class="scroll-hint mono" href="#showcase">Scroll <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <!-- 2. SHOWCASE -->
+    <section class="showcase" id="showcase" aria-labelledby="showcase-title">
+      <div class="showcase__sticky">
+        <div class="showcase__head">
+          <p class="eyebrow">Responsive by design</p>
+          <h2 id="showcase-title">One site, <em>every screen</em></h2>
+          <p class="mono showcase__cap" id="device-cap" aria-live="polite">Desktop · 1440 × 900</p>
+        </div>
+        <div class="showcase__stage">
+          <div class="desktop" id="desktop">
+            <div class="desktop__screen"><img src="images/desktop.png" alt="Screenshot of this portfolio on a desktop screen" decoding="async" /></div>
+            <div class="desktop__neck"></div>
+            <div class="desktop__base"></div>
+          </div>
+          <div class="phone" id="phone">
+            <div class="phone__screen"><img src="images/mobile.png" alt="Screenshot of this portfolio on a mobile phone" decoding="async" /></div>
+            <span class="phone__island"></span>
+          </div>
+        </div>
+        <!-- the desktop screen pops out of the monitor into this layer -->
+        <div class="popout" id="popout" aria-hidden="true">
+          <div class="popout__frame" id="popout-frame"><img src="images/desktop.png" alt="" decoding="async" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. WORK WITH ME -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact__inner">
+        <p class="eyebrow reveal">Work with me</p>
+        <h2 class="contact__title reveal" id="contact-title">Let's build<br /><em>something together.</em></h2>
+        <p class="contact__lede reveal">I'm looking for an AI / ML internship where disciplined work and fast learning turn into real contribution.</p>
+
+        <div class="contact__grid">
+          <a class="orb reveal" href="mailto:ibrahim.bin.hsn@gmail.com">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="orb" d="M100,100 m-82,0 a82,82 0 1,1 164,0 a82,82 0 1,1 -164,0" /></defs>
+              <text><textPath href="#orb">SAY HELLO · SAY HELLO · SAY HELLO ·&#160;</textPath></text>
+            </svg>
+            <span>Email me</span>
+          </a>
+          <ul class="links">
+            <li class="reveal"><span class="mono">Email</span><a href="mailto:ibrahim.bin.hsn@gmail.com">ibrahim.bin.hsn@gmail.com</a><button class="copy mono" type="button" data-copy="ibrahim.bin.hsn@gmail.com">Copy</button></li>
+            <li class="reveal"><span class="mono">Phone</span><a href="tel:+923391221222">+92 339 1221222</a></li>
+            <li class="reveal"><span class="mono">LinkedIn</span><a href="https://www.linkedin.com/in/ibrahim-hsn/" target="_blank" rel="noopener">in/ibrahim-hsn ↗</a></li>
+            <li class="reveal"><span class="mono">GitHub</span><a href="https://github.com/ibrahim-hsn" target="_blank" rel="noopener">ibrahim-hsn ↗</a></li>
+          </ul>
+        </div>
+      </div>
+      <footer class="footer mono">
+        <span>© 2026 Ibrahim Bin Hassan</span>
+        <a href="#home">Back to top ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <div class="toast mono" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
